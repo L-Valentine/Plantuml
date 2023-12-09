@@ -1,0 +1,11 @@
+@startuml my second uml
+
+actor user
+user -> access ++ : getInfo()
+    access -> access : authentication()
+    access -> backend ++ : getInfo()
+        backend -> dataStore : query()
+    return
+return
+
+@enduml
