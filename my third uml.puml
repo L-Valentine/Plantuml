@@ -1,0 +1,18 @@
+@startuml my third uml
+
+actor user
+boundary access
+participant backend
+database dataStore
+
+user -> access ++ : getInfo()
+    access -> access : authentication()
+    note right: HTTP Basic or Digest
+    access -> backend ++ : getInfo()
+        loop for info categories
+            backend -> dataStore : query()
+        end
+    return
+return
+
+@enduml
