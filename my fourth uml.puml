@@ -1,0 +1,24 @@
+@startuml my fourth uml
+hide empty fields
+hide empty methods
+
+class InvocationHistoryAspect   <<aspect>>
+class InvocationHistoryRecorder {
+    + start(methodName): InvocationContext
+}
+
+class InvocationContext {
+    + finished(): void
+}
+
+Interface SamplingPolicy
+class TimeBasedSampling implements SamplingPolicy
+class NumberBasedSampling implements SamplingPolicy
+
+InvocationHistoryRecorder .> InvocationContext
+InvocationContext ..> InvocationHistory
+InvocationHistoryAspect --> InvocationHistoryRecorder
+InvocationHistoryInterceptor --> InvocationHistoryRecorder
+InvocationHistoryRecorder --> SamplingPolicy
+
+@enduml
