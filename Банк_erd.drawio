@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T16:55:48.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition Yx 05)" etag="2Ya1lGQTHCD-RWLox9e4" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T17:15:53.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition Yx 05)" etag="dc8PBikOZdTlU1Qdzz3e" version="22.1.18" type="github">
   <diagram name="Страница — 1" id="-eCXFyW9J2usL3Vw9FVG">
-    <mxGraphModel dx="2242" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3858" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -822,6 +822,12 @@
               <mxPoint x="1070" y="355" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T3e_8v5Oq-ZNvML-TUhE-114" value="&lt;b&gt;Типы заказов:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- оффлайн&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- онлайн&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- через сервис&lt;br&gt;&amp;nbsp; &amp;nbsp;партнера&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=31.57;dy=42;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="420" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T3e_8v5Oq-ZNvML-TUhE-123" value="&lt;b&gt;Категории:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- кредит&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- депозит&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- карточка&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- страховка&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="970" width="120" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
